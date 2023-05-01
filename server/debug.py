@@ -5,4 +5,5 @@ from models import db, Activity, Signup, Camper
 
 if __name__ == '__main__':
     with app.app_context():
+        from models import db, Activity, Signup, Camper
         import ipdb; ipdb.set_trace()
